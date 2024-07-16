@@ -1,0 +1,22 @@
+/* BANNER  */
+.banner .banner_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .item1,
+.item3 {
+    background-image: url(./../img/banner1.jpg);
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .item2,
+.item4 {
+    background-image: url(./../img/banner2.jpg);
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
