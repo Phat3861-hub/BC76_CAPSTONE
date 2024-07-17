@@ -95,3 +95,44 @@ a.read:hover {
 .features .features_content h4 a:hover {
     color: #189A46;
 }
+
+/* OFFER  */
+.offer .offer_left img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.offer .offer_right h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+.offer .offer_right ul {
+    padding: 0;
+    margin: 0;
+}
+
+.offer .offer_right li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000c04;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+
+.offer .offer_right span {
+    color: #189A46;
+    margin-right: 12px;
+    background: rgba(147, 107, 232, 0.05);
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
