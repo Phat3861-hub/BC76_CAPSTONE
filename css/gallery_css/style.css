@@ -40,3 +40,38 @@
 .carousel a {
   color: #189242;
 }
+
+/* gallery css  */
+.gallery {
+  margin-top: 90px;
+}
+.gallery .gallery_title {
+  text-align: center;
+}
+
+.gallery .gallery_title h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: #f53626;
+}
+
+.gallery .gallery_title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.gallery .gallery_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.gallery .gallery_content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
