@@ -9,6 +9,11 @@
 
     <!-- google fonts -->
     <link href="//fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -31,6 +36,12 @@
     <!-- POPUP  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css"
         integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/home.css">
@@ -90,7 +101,7 @@
     <!-- BANNER  -->
     <div class="banner">
         <div class="banner_content">
-            <div class="banner_item item1 text-white text-left">
+            <div class=" banner_item item1 text-white text-left">
                 <h1>Quality Things For loving pets</h1>
                 <p>keep your pets smiling</p>
                 <a type="button" class="btn btn-style btn-whte btn-lg">Large button</a>
@@ -410,9 +421,213 @@
                     adipisi elit.
                     Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
             </div>
-            <div class="videoplay">
+            <div class="videoplay mt-5 px-5">
                 <div class="position-relative">
                     <img src="./img/banner2.jpg" class="img-fluid" alt="">
+                    <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                        <span class="video_icon">
+                            <span class="fa fa-play"></span>
+                        </span>
+                    </a>
+                    <div class=" popup-with-zoom-anim" id="small-dialog">
+                        <iframe src="https://player.vimeo.com/video/101587706" frameborder="0" allow="autoplay; "
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="test py-5">
+        <div class="container py-lg-4 py-md-3 pb-lg-0">
+            <div class="test_content">
+                <div class="test_head text-center">
+                    <h6 class="subtitle">TESTIMONIALS</h6>
+                    <h3 class="mb-md-5 mb-4">Happy Clients & Feedbacks</h3>
+                </div>
+                <div id="owl-demo1" class="test_carousel px-5 owl-carousel owl-theme">
+                    <div class="item" style="width: 515px; margin-right: 20px;">
+                        <div class="item_content">
+                            <div class="item_info">
+                                <blockquote>
+                                    <q>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                        Dolores molestias adipisci dolor sit amet!.
+                                    </q>
+                                </blockquote>
+                                <div class="item_img">
+                                    <div class="img_left">
+                                        <img src="./img/f1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="img_right align-content-center">
+                                        <h3>John wilson</h3>
+                                        <p class="indentity">Example City</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width: 515px; margin-right: 20px;">
+                        <div class="item_content">
+                            <div class="item_info">
+                                <blockquote>
+                                    <q>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                        Dolores molestias adipisci dolor sit amet!.
+                                    </q>
+                                </blockquote>
+                                <div class="item_img">
+                                    <div class="img_left">
+                                        <img src="./img/f2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="img_right align-content-center">
+                                        <h3>John wilson</h3>
+                                        <p class="indentity">Example City</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width: 515px; margin-right: 20px;">
+                        <div class="item_content">
+                            <div class="item_info">
+                                <blockquote>
+                                    <q>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                        Dolores molestias adipisci dolor sit amet!.
+                                    </q>
+                                </blockquote>
+                                <div class="item_img">
+                                    <div class="img_left">
+                                        <img src="./img/f3.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="img_right align-content-center">
+                                        <h3>John wilson</h3>
+                                        <p class="indentity">Example City</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width: 515px; margin-right: 20px;">
+                        <div class="item_content">
+                            <div class="item_info">
+                                <blockquote>
+                                    <q>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                        Dolores molestias adipisci dolor sit amet!.
+                                    </q>
+                                </blockquote>
+                                <div class="item_img">
+                                    <div class="img_left">
+                                        <img src="./img/f4.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="img_right align-content-center">
+                                        <h3>John wilson</h3>
+                                        <p class="indentity">Example City</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width: 515px; margin-right: 20px;">
+                        <div class="item_content">
+                            <div class="item_info">
+                                <blockquote>
+                                    <q>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                        Dolores molestias adipisci dolor sit amet!.
+                                    </q>
+                                </blockquote>
+                                <div class="item_img">
+                                    <div class="img_left">
+                                        <img src="./img/f3.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="img_right align-content-center">
+                                        <h3>John wilson</h3>
+                                        <p class="indentity">Example City</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width: 515px; margin-right: 20px;">
+                        <div class="item_content">
+                            <div class="item_info">
+                                <blockquote>
+                                    <q>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                        Dolores molestias adipisci dolor sit amet!.
+                                    </q>
+                                </blockquote>
+                                <div class="item_img">
+                                    <div class="img_left">
+                                        <img src="./img/f2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="img_right align-content-center">
+                                        <h3>John wilson</h3>
+                                        <p class="indentity">Example City</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="width: 515px; margin-right: 20px;">
+                        <div class="item_content">
+                            <div class="item_info">
+                                <blockquote>
+                                    <q>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                        voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                        Dolores molestias adipisci dolor sit amet!.
+                                    </q>
+                                </blockquote>
+                                <div class="item_img">
+                                    <div class="img_left">
+                                        <img src="./img/f4.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="img_right align-content-center">
+                                        <h3>John wilson</h3>
+                                        <p class="indentity">Example City</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UPDATED  -->
+    <section class="update py-5">
+        <div class="container py-md-4 py-3 text-center">
+            <div class="row my-lg-4 mt-4 justify-content-center">
+                <div class="subcribe mx-auto">
+                    <div class="col-lg-9 col-md-10 mx-auto">
+                        <h3>Stay Updtaed!</h3>
+                        <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                            cubilia
+                            Curae;
+                            Nulla mollis dapibus nunc, ut rhoncus
+                            turpis sodales quis. Integer sit amet mattis quam.
+                        </p>
+                    </div>
+                    <form action="" method="post" class="pt-2 mt-5">
+                        <div class="d-md-flex ">
+                            <input class="form-control " type="email" placeholder="Enter your email ..." name="Email"
+                                required>
+                            <button class="btn  " type="submit">Subcribe</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -509,6 +724,8 @@
 
     </footer>
 
+
+
     <a href="#header" class=" back_to_top cd-top cd-top--is-visible cd-top--fade-out  text-replace js-cd-top">
         <i class="fa-solid fa-angle-up"></i> </a>
     <!-- Bootstrap JavaScript Libraries -->
@@ -559,6 +776,55 @@
             'time': 3000,
             'delay': 10
         });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo1").owlCarousel({
+                loop: false,
+                margin: 20,
+                nav: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    736: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 2,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        })
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
     </script>
 
     <script src="./js/back-to-top-master/assets/js/util.js"></script>
