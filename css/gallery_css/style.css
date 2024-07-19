@@ -75,3 +75,29 @@
   height: auto;
   border-radius: 10px;
 }
+
+.gallery .gallery_item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gallery .gallery_item::before {
+  content: '';
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: block;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-25deg);
+  transition: all 0.75s;
+}
+
+.gallery .gallery_item:hover::before {
+  left: 125%;
+}
