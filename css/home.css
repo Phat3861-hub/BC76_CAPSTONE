@@ -341,72 +341,84 @@ a.read:hover {
 
 /* TESTIMONIALS */
 
-.test .test_head h3 {
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
-    text-transform: capitalize;
+.pc_testimonials {
+    background: #F3EFFD;
 }
 
-.test_carousel q::before {
-    font-size: 50px;
-    color: #189A46;
-    line-height: .8;
-    padding-top: 8px;
-    font-weight: 600;
-    display: inline-block;
-    font-family: "Merriweather", serif;
-}
-
-.test_carousel q {
-    font-size: 1.2em;
-    line-height: 28px;
-    color: #696969;
-}
-
-.test_carousel .item_img {
-    display: flex;
-    text-align: center;
-}
-
-.test_carousel .item_img .img_left {
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-.test_carousel .item_img .img_right {
-    margin: 0;
-    margin-left: 20px;
-    text-align: left;
-}
-
-.test_carousel .item_img .img_right h3 {
-    margin: 0;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.test_carousel .item_img .img_right .identify {
-    color: #777;
-    font-size: 17px;
-    font-style: normal;
-    margin-bottom: 0;
-    text-align: left;
-    opacity: 0.8;
-}
-
-.test_carousel .item_info {
+.pc_testimonials .testimonials_content {
     display: block;
     margin: 0;
     padding: 40px 30px;
     position: relative;
     background: #fff;
     border-radius: 10px;
-    border: none;
     box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+}
+
+.pc_testimonials .testimonials_width {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.pc_testimonials .testimonials_content blockquote {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    margin: 0 1.5em 1.5em;
+}
+
+.testimonials_content blockquote q {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+}
+
+.testimonials_content blockquote q::before {
+    font-size: 50px;
+    color: rgba(147, 107, 232, 0.05);
+    line-height: 0.8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: serif;
+}
+
+.testi_info .testi_img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.testi_info .testi_user {
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.testi_info .testi_user h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.testi_info .testi_user p {
+    color: #777;
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+
+#owl-testimonials .owl-dots {
+    position: inherit;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin-top: 80px;
 }
 
 /* UPDATED  */
