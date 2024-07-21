@@ -1,0 +1,103 @@
+/* carousel css  */
+.carousel {
+  background-image: url(./../img/img_gallery/banner4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  padding: auto 0;
+}
+
+.carousel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0c0c0c;
+  opacity: 0.6;
+}
+.carousel_content {
+  padding: 50px 0;
+}
+.carousel h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel p {
+  font-size: 19px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel a {
+  color: #189242;
+}
+
+/* gallery css  */
+.gallery {
+  margin: 90px 0;
+}
+.gallery .gallery_title {
+  text-align: center;
+}
+
+.gallery .gallery_title h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: #f53626;
+}
+
+.gallery .gallery_title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.gallery .gallery_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.gallery .gallery_content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gallery .gallery_item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gallery .gallery_item::before {
+  content: '';
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: block;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-25deg);
+  transition: all 0.75s;
+}
+
+.gallery .gallery_item:hover::before {
+  left: 125%;
+}
