@@ -37,6 +37,7 @@ p {
 
 /* HEADER & NAV-BAR  */
 header {
+    height: 90px;
     background-color: white;
     position: sticky;
     top: 0;
@@ -112,6 +113,10 @@ header {
 .navbar .HeaderSearch a:hover {
     color: white;
     background-color: #189A46;
+}
+
+.header_space {
+    margin-bottom: 90px;
 }
 
 
