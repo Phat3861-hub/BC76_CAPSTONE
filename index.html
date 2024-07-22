@@ -26,17 +26,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
         integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- SLICK CAROUSEL  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
-        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
-        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- POPUP  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css"
         integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -49,7 +43,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="fixed-top" id="site_header">
         <div class="container">
             <nav class="navbar navbar-expand-lg position-relative ">
                 <div class="container-fluid ">
@@ -97,36 +91,60 @@
             </nav>
         </div>
     </header>
-
-    <!-- BANNER  -->
-    <div class="banner">
-        <div class="banner_content">
-            <div class=" banner_item item1 text-white text-left">
-                <h1>Quality Things For loving pets</h1>
-                <p>keep your pets smiling</p>
-                <a type="button" class="btn btn-style btn-whte btn-lg">Large button</a>
-                <a type="button" class="btn btn-secondary btn-lg">Large button</a>
+    <div class="header_space"></div>
+    <!-- carousel  -->
+    <section class="pc_carousel">
+        <div class="owl-carousel owl-theme" id="owl-banner">
+            <div class="carousel_item">
+                <div class="carousel_info">
+                    <div class="container">
+                        <div class="banner_info text-start">
+                            <h5>Quality Things for Loving Pets</h5>
+                            <p>Keeps your Pet Smiling</p>
+                            <a href="./html/about.html" class="btn btn_white btn_style mt-sm-5 mt-4 me-2">Read more</a>
+                            <a href="./html/contact.html" class="btn btn_border btn_style mt-sm-5 mt-4">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="banner_item item2">
-                <h1>Quality Things For loving pets</h1>
-                <p>keep your pets smiling</p>
-                <a type="button" class="btn btn-primary btn-lg">Large button</a>
-                <a type="button" class="btn btn-secondary btn-lg">Large button</a>
+            <div class="carousel_item carousel_item2">
+                <div class="carousel_info">
+                    <div class="container">
+                        <div class="banner_info ms-lg-auto">
+                            <h5>Delivering happiness for Pets</h5>
+                            <p>For the love of pets</p>
+                            <a href="./html/about.html" class="btn btn_white btn_style mt-sm-5 mt-4 me-2">Read more</a>
+                            <a href="./html/contact.html" class="btn btn_border btn_style mt-sm-5 mt-4">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="banner_item item3">
-                <h1>Quality Things For loving pets</h1>
-                <p>keep your pets smiling</p>
-                <a type="button" class="btn btn-primary btn-lg">Large button</a>
-                <a type="button" class="btn btn-secondary btn-lg">Large button</a>
+            <div class="carousel_item">
+                <div class="carousel_info">
+                    <div class="container">
+                        <div class="banner_info text-start">
+                            <h5>Quality Things for Loving Pets</h5>
+                            <p>Keeps your Pet Smiling</p>
+                            <a href="./html/about.html" class="btn btn_white btn_style mt-sm-5 mt-4 me-2">Read more</a>
+                            <a href="./html/contact.html" class="btn btn_border btn_style mt-sm-5 mt-4">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="banner_item item4">
-                <h1>Quality Things For loving pets</h1>
-                <p>keep your pets smiling</p>
-                <a type="button" class="btn btn-primary btn-lg">Large button</a>
-                <a type="button" class="btn btn-secondary btn-lg">Large button</a>
+            <div class="carousel_item">
+                <div class="carousel_info">
+                    <div class="container">
+                        <div class="banner_info ms-lg-auto">
+                            <h5>Delivering happiness for Pets</h5>
+                            <p>For the love of pets</p>
+                            <a href="./html/about.html" class="btn btn_white btn_style mt-sm-5 mt-4 me-2">Read more</a>
+                            <a href="./html/contact.html" class="btn btn_border btn_style mt-sm-5 mt-4">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- about  -->
     <section class="about">
@@ -417,26 +435,24 @@
             <div class="video_text text-center">
                 <h2 class="subtitle">BETTER PET NUTRITION.</h2>
                 <h3>The Finest Fresh Food And All Your Pet Needs.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur
-                    adipisi elit.
-                    Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet elit consectetur
+                    adipisicing elit. Lorem ipsum dolor sit amet elit consectetur adipisicing elit. Iure voluptatibus
+                    explicabo officia.</p>
             </div>
             <div class="videoplay mt-5 px-5">
                 <div class="position-relative">
-                    <img src="./img/banner2.jpg" class="img-fluid" alt="">
-                    <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                    <img src="./img/banner2.jpg" class="img-fluid" alt="Banner Image">
+                    <a href="https://player.vimeo.com/video/101587706"
+                        class="popup-with-zoom-anim play-view text-center position-absolute">
                         <span class="video_icon">
                             <span class="fa fa-play"></span>
                         </span>
                     </a>
-                    <div class=" popup-with-zoom-anim" id="small-dialog">
-                        <iframe src="https://player.vimeo.com/video/101587706" frameborder="0" allow="autoplay; "
-                            allowfullscreen></iframe>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- TESTIMONIALS -->
     <section class="pc_testimonials py-5">
@@ -533,7 +549,7 @@
                             </blockquote>
                             <div class="testi_info text-center d-flex align-items-center">
                                 <div class="testi_img">
-                                    <img src="./img/f2.jpg alt=" client image" class="img-fluid" />
+                                    <img src="./img/f2.jpg" alt=" client image" class="img-fluid" />
                                 </div>
                                 <div class="testi_user">
                                     <h3>Laura gill</h3>
@@ -707,27 +723,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
         integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- slick-carousel min  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- pop up  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.js"
         integrity="sha512-tOyzsVuGuz0il5EcXFi/qA5DI4BNLna4gHbWn+HbQBP0jmRhyqMKup24fzyKnxSX0jBxt2+qStqwwHDIh5TaGA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- slick-carousel function -->
-    <script>
-        $(document).ready(function () {
-            $('.banner_content').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: false,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                dots: true
-            });
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- count up -->
     <script src="./js/Count/jquery.countup.js"></script>
     <script>
@@ -736,54 +739,63 @@
             'delay': 10
         });
     </script>
-
+    <script>
+        $(document).ready(function () {
+            $('#owl-banner').owlCarousel({
+                loop: true,
+                items: 1,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                dots: true
+            })
+        }
+        )
+    </script>
     <script>
         $(document).ready(function () {
             $("#owl-testimonials").owlCarousel({
                 loop: true,
-                margin: 20,
-                nav: false,
-                responsiveClass: true,
+                margin: 10,
                 responsive: {
                     0: {
-                        items: 1,
-                        nav: false,
+                        items: 1
+                        , nav: false
                     },
                     736: {
                         items: 1,
-                        nav: false,
+                        nav: false
                     },
                     1000: {
                         items: 2,
-                        nav: false,
-                        loop: false,
-                    },
-                },
+                        nav: false
+                        , loop: false
+                    }
+                }
             });
         });
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
     <script>
-        $('.owl-carousel').owlCarousel({
-            loop: false,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
-                }
-            }
-        })
+        $(document).ready(function () {
+            $('.image-link').magnificPopup({ type: 'image' });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".popup-with-zoom-anim").magnificPopup({
+                disableOn: 700,
+                type: "iframe",
+                mainClass: "mfp-fade",
+                removalDelay: 160,
+                preloader: false,
+
+                fixedContentPos: false,
+            });
+        });
     </script>
 
     <script src="./js/back-to-top-master/assets/js/util.js"></script>
