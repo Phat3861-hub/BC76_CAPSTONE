@@ -279,8 +279,53 @@
 
 .team .team_item img {
   width: 100%;
+  border-radius: 10px;
+}
+
+.team .item_img {
+  overflow: hidden;
 }
 
 .team .team_item {
   text-align: center;
+}
+
+.team .team_item a {
+  font-size: 22px;
+  line-height: 26px;
+  color: black;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.team .team_item:hover .item_title a {
+  color: #189242;
+}
+
+.team .team_item:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s linear;
+}
+
+.team .team_item p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #696969;
+}
+
+.team .team_icon {
+  margin-top: 10px;
+}
+
+.team .team_icon a {
+  color: #189242;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #f3effd;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+
+.team .team_icon a:hover {
+  color: #f3effd;
+  background-color: #189242;
 }
