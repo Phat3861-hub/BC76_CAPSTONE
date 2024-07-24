@@ -33,13 +33,23 @@
       referrerpolicy="no-referrer"
     ></script>
 
+    <!-- lightbox css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css"
+      integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- main css  -->
     <link rel="stylesheet" href="./../css/style.css" />
     <link rel="stylesheet" href="./../css/gallery.css" />
   </head>
 
   <body>
     <!-- header  -->
-    <header>
+    <header class="fixed-top">
       <div class="container">
         <nav class="navbar navbar-expand-lg position-relative">
           <div class="container-fluid">
@@ -104,8 +114,8 @@
     <section class="carousel">
       <div class="container">
         <div class="carousel_content">
-          <h2>About Us</h2>
-          <p><a href="./../index.html">Home</a> » About Us</p>
+          <h2>Gallery</h2>
+          <p><a href="./../index.html">Home</a> » Gallery Page</p>
         </div>
       </div>
     </section>
@@ -119,31 +129,76 @@
         </div>
         <div class="gallery_content">
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g1.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g1.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g1.jpg" alt="g1"
+            /></a>
           </div>
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g2.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g3.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g3.jpg" alt="g1"
+            /></a>
           </div>
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g3.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g5.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g5.jpg" alt="g1"
+            /></a>
           </div>
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g4.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g2.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g2.jpg" alt="g1"
+            /></a>
           </div>
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g5.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g4.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g4.jpg" alt="g1"
+            /></a>
           </div>
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g6.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g6.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g6.jpg" alt="g1"
+            /></a>
           </div>
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g7.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g7.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g7.jpg" alt="g1"
+            /></a>
           </div>
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g8.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g8.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g8.jpg" alt="g1"
+            /></a>
           </div>
           <div class="gallery_item">
-            <img src="./../img/img_gallery/g9.jpg" alt="g1" />
+            <a
+              href="./../img/img_gallery/g9.jpg"
+              data-lightbox="image-1"
+              data-title="lorem ipsum dolor sit amet"
+              ><img src="./../img/img_gallery/g9.jpg" alt="g1"
+            /></a>
           </div>
         </div>
       </div>
@@ -296,5 +351,19 @@
 
     <script src="./../js/back-to-top-master/assets/js/util.js"></script>
     <script src="./../js/back-to-top-master/assets/js/main.js"></script>
+
+    <!-- light box  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"
+      integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+      });
+    </script>
   </body>
 </html>
