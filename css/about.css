@@ -11,6 +11,7 @@
   position: relative;
   z-index: 0;
   padding: auto 0;
+  margin-top: 90px;
 }
 
 .carousel::before {
