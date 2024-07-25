@@ -79,8 +79,12 @@
 
 /* ABOUT */
 .about {
-    padding: 200px 520px !important;
-    text-align: center;
+    padding: 70px 0 !important;
+}
+
+.about .about_content {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .about .about_subtitle {
