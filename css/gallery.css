@@ -64,12 +64,6 @@
   line-height: 48px;
 }
 
-.gallery .gallery_content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-}
-
 .gallery .gallery_content img {
   width: 100%;
   height: auto;
@@ -81,6 +75,7 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  margin-top: 20px;
 }
 .gallery .gallery_item::before {
   content: '';
