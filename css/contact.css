@@ -1,3 +1,21 @@
+.ct_find h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+
+.ct_find h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+
+
 .ct_find .ct_form {
     grid-template-columns: 2fr 1fr;
     gap: 40px;
@@ -5,6 +23,7 @@
 
 .ct_find .ct_left {
     width: 20px;
+    color: #189a46;
 }
 
 .ct_find .ct_info {
@@ -18,7 +37,6 @@
     font-size: 22px;
     display: block;
     margin-top: 3px;
-    color: #189a46;
 }
 
 .ct_find .ct_right h6 {
@@ -84,6 +102,29 @@
     border: 1px solid #189a46;
     box-shadow: none;
 }
+
+.ct_find .ct_form .btn_style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #189a46 !important;
+    border-color: #189a46;
+
+}
+
+.ct_find .ct_form button {
+    transition: all 0.5s;
+}
+
+.ct_find .ct_form button:hover {
+    background-color: #1b6936 !important;
+}
+
 
 @media (max-width: 992px) {
     .ct_find .ct_form {

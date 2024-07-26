@@ -77,6 +77,31 @@
     height: 10px;
 }
 
+a.btn_white {
+    padding: 12px 35px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #189A46;
+}
+
+a.btn_border {
+    padding: 12px 35px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 10px;
+    color: #fff;
+    border-color: #fff;
+}
+
+.pc_carousel a:hover {
+    background-color: #fff;
+    color: #189A46;
+}
+
 /* ABOUT */
 .about {
     padding: 70px 0 !important;
@@ -525,6 +550,13 @@ a.read:hover {
     background-color: #11602d;
     border-color: #11602d;
     color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .update form button {
+        width: 100%;
+        margin: 20px 0;
+    }
 }
 
 /* ANIMATION  */
