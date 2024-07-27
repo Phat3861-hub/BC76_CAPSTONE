@@ -56,6 +56,11 @@ header {
     color: #189A46;
 }
 
+.navbar .dropdown-menu .active {
+    background-color: #fff;
+    color: #189A46 !important;
+}
+
 .navbar .nav-item {
     margin-right: 24px;
     transition: all 0.5s;
