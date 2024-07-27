@@ -207,6 +207,10 @@ header .header_site {
     bottom: 10px;
     right: 600px;
   }
+  header {
+    height: auto;
+    padding: 15px 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
