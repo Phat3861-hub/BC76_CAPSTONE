@@ -430,6 +430,21 @@ a.read:hover {
     background: #F3EFFD;
 }
 
+.pc_testimonials .pc_title h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+
+.pc_testimonials .pc_title h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 34px;
+}
+
 .pc_testimonials .testimonials_content {
     display: block;
     margin: 0;
